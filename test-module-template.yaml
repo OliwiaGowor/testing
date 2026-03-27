@@ -2,7 +2,7 @@ apiVersion: operator.kyma-project.io/v1beta2
 kind: ModuleTemplate
 metadata:
   annotations:
-  source: ''
+  source: 'https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module-template.yaml'
   labels:
     operator.kyma-project.io/module-name: test-module
   name: test-module
