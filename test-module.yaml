@@ -26,3 +26,12 @@ spec:
             limits:
               memory: 128Mi
               cpu: 100m
+---
+apiVersion: telemetry.istio.io/v1alpha1
+kind: Telemetry
+metadata:
+  name: 'test-module-telemetry'
+  labels: {}
+  annotations: {}
+  namespace: og
+spec: {}
