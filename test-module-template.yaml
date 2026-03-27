@@ -89,4 +89,4 @@ spec:
   resources:
     - link: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module.yaml
       name: rawManifest
-  version: 0.0.2
+  version: 0.0.3
