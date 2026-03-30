@@ -5,7 +5,7 @@ metadata:
   source: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module-template.yaml
   test: test
   labels:
-    operator.kyma-project.io/module-name: test-module
+    operator.kyma-project.io/module-name: test-module-0.0.6
   name: test-module
   namespace: og
 spec:
@@ -90,4 +90,4 @@ spec:
   resources:
     - link: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module.yaml
       name: rawManifest
-  version: 0.0.5
+  version: 0.0.6
