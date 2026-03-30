@@ -3,10 +3,11 @@ kind: ModuleTemplate
 metadata:
   annotations:
   source: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module-template.yaml
+  new-ann: test
   test: test
   labels:
     operator.kyma-project.io/module-name: test-module
-  name: test-module-0.0.6
+  name: test-module-0.0.7
   namespace: og
 spec:
   associatedResources:
@@ -90,4 +91,4 @@ spec:
   resources:
     - link: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module.yaml
       name: rawManifest
-  version: 0.0.6
+  version: 0.0.7
