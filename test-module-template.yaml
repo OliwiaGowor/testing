@@ -5,8 +5,8 @@ metadata:
   source: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module-template.yaml
   test: test
   labels:
-    operator.kyma-project.io/module-name: test-module-0.0.6
-  name: test-module
+    operator.kyma-project.io/module-name: test-module
+  name: test-module-0.0.6
   namespace: og
 spec:
   associatedResources:
