@@ -5,7 +5,7 @@ metadata:
   namespace: og
   labels:
     app.kubernetes.io/name: test-module-controller-manager
-    test-new-ver: 2
+    test-new-ver: 0.0.6
 spec:
   replicas: 1
   selector:
@@ -32,7 +32,8 @@ apiVersion: telemetry.istio.io/v1alpha1
 kind: Telemetry
 metadata:
   name: 'test-module-telemetry-2'
-  labels: {}
+  labels: 
+    version: 0.0.6
   annotations: {}
   namespace: og
 spec: {}
