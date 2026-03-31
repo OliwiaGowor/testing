@@ -5,7 +5,7 @@ metadata:
   namespace: og
   labels:
     app.kubernetes.io/name: test-module-controller-manager
-    test-new-ver: 0.0.6
+    test-new-ver: 0.0.7
 spec:
   replicas: 1
   selector:
@@ -33,7 +33,7 @@ kind: Telemetry
 metadata:
   name: 'test-module-telemetry-2'
   labels: 
-    version: 0.0.6
+    version: 0.0.7
   annotations: {}
   namespace: og
 spec: {}
