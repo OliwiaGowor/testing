@@ -7,7 +7,7 @@ metadata:
     test: test
   labels:
     operator.kyma-project.io/module-name: test-module
-  name: test-module-0.0.8
+  name: test-module-0.0.9
   namespace: og
 spec:
   associatedResources:
@@ -41,4 +41,4 @@ spec:
   resources:
     - link: https://raw.githubusercontent.com/OliwiaGowor/testing/refs/heads/main/test-module.yaml
       name: rawManifest
-  version: 0.0.8
+  version: 0.0.9
